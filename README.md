@@ -1,6 +1,6 @@
 # 📝 Refatoração do projeto Cadastro de Usuários com API CRUD
 
-O projeto original tinha o foco de praticar consumo de APIs e operações CRUD (Create, Read, Update, Delete). Esse novo modelo tem o foco em Modularização dos arquivos, separando-os por pastas.
+O [projeto original](https://github.com/Lenickts/postman-cadastrarCliente) tinha o foco de praticar consumo de APIs e operações CRUD (Create, Read, Update, Delete). Esse novo modelo tem o foco em Modularização dos arquivos, separando-os por pastas.
 
 ## ✨ Funcionalidades
 - **Cadastrar usuários** (nome e e-mail)
