@@ -1,6 +1,6 @@
-# 📝 Cadastro de Usuários com API CRUD
+# 📝 Refatoração do projeto Cadastro de Usuários com API CRUD
 
-Um projeto frontend para praticar consumo de APIs e operações CRUD (Create, Read, Update, Delete), desenvolvido com JavaScript puro.
+O projeto original tinha o foco de praticar consumo de APIs e operações CRUD (Create, Read, Update, Delete). Esse novo modelo tem o foco em Modularização dos arquivos, separando-os por pastas.
 
 ## ✨ Funcionalidades
 - **Cadastrar usuários** (nome e e-mail)
@@ -16,9 +16,14 @@ Um projeto frontend para praticar consumo de APIs e operações CRUD (Create, Re
 ## 🎨 Estrutura do código
 - **index.html**      > Estrutura principal
 - **style.css**       > Estilos com Flexbox
-- **script.js**       > Lógica de CRUD com Fetch API
+- **js*
+    - **api/**        > Comunicação com API
+    - **classes.js**    > Modelos de dados
+    - **dom/**        > Manipulação do DOM
+    - **utils.js**      > Utilitários
+    - **app.js**      > Main
 
-## 📌 Aprendizados
+## 💡 Aprendizados
 - Consumo de APIs com Fetch
 - Tratamento de erros assíncronos
 - Manipulação dinâmica do DOM
