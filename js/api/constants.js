@@ -1,0 +1,1 @@
+export const urlAPI = "https://retoolapi.dev/LmDc7h/cadastro";
